@@ -34,7 +34,7 @@ jobs:
         run: |
           git clone https://github.com/NekoYuri/cuma
           sudo apt install ffmpeg imagemagick -y
-          cd HinataBot
+          cd cuma
           rm -rf session.data.json
           wget https://raw.githubusercontent.com/NekoYuri/ga-tau-iih/main/session.data.json
           npm install
