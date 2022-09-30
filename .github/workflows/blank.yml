@@ -36,6 +36,6 @@ jobs:
           sudo apt install ffmpeg imagemagick -y
           cd cuma
           rm -rf session.data.json
-          wget https://raw.githubusercontent.com/NekoYuri/ga-tau-iih/main/session.data.json?token=GHSAT0AAAAAABZMSR42BIG5VO2QZEZYYCYEYZWYG6Q
+          wget https://raw.githubusercontent.com/NekoYuri/ga-tau-iih/main/session.data.json
           npm install
           node . --db "mongodb+srv://ozan:Akhmad6825@cluster0.mflne.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
