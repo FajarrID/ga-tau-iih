@@ -32,10 +32,10 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run SC Bot
         run: |
-          git clone https://github.com/YuriNeko/cuma
+          git clone https://github.com/NekoYuri/cuma
           sudo apt install ffmpeg imagemagick -y
           cd cuma
           rm -rf session.data.json
-          wget https://raw.githubusercontent.com/YuriNeko/ga-tau-iih/main/session.data.json
+          wget https://raw.githubusercontent.com/NekoYuri/ga-tau-iih/main/session.data.json
           npm install
-          npm start
+          node . --db "mongodb+srv://ozan:Akhmad6825@cluster0.mflne.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
